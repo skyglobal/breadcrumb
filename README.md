@@ -9,11 +9,11 @@ See http://damnhipster.github.io/breadcrumb/ for a demo of the Component
 
 ### As CSS
 
-http://web-toolkit.global.sky.com/components/breadcrumb/0.0.0/css/breadcrumb.css
+http://web-toolkit.global.sky.com/components/breadcrumb/0.0.1/css/breadcrumb.css
 
 ### As JS
 
-http://web-toolkit.global.sky.com/components/breadcrumb/0.0.0/js/breadcrumb.js
+http://web-toolkit.global.sky.com/components/breadcrumb/0.0.1/js/breadcrumb.js
 
 ### As a Sass Module
 
