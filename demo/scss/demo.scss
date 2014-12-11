@@ -1,0 +1,18 @@
+//@import here
+@import 'bskyb-colours/dist/scss/colours';
+@import 'bskyb-typography/dist/scss/typography';
+
+/* Common demo Sass here */
+.demo-updated {
+  display: block;
+  font-size: 0.3em;
+}
+
+.demo-block{
+  margin-bottom: 20px;
+  display: block;
+  clear: both;
+}
+
+
+//your demo specific scss here
