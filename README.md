@@ -1,9 +1,9 @@
-[breadcrumb](http://damnhipster.github.io/breadcrumb/) 
+[breadcrumb](http://skyglobal.github.io/breadcrumb/) 
 ========================
 
 > breadcrumb
 
-See http://damnhipster.github.io/breadcrumb/ for a demo of the Component
+See http://skyglobal.github.io/breadcrumb/ for a demo of the Component
 
 ## Usage
 
