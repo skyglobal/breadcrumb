@@ -216,37 +216,6 @@ body .hover-colour:hover .skycon-pending, body .colour.skycon-pending {
 body .hover-colour:hover .skycon-whatsapp, body .colour.skycon-whatsapp {
   color: #34AF23; }
 
-ol, ul {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-
-a {
-  text-decoration: none; }
-
-a:hover {
-  text-decoration: underline; }
-
-body .visible-touch, body .hidden {
-  display: none !important; }
-
-body .touch-device .visible-touch, body .visible {
-  display: inherit; }
-
-.internal-link {
-  color: #333333;
-  outline: 0 !important;
-  border: 0; }
-
-.ellipsis {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  -o-text-overflow: ellipsis;
-  -ms-text-overflow: ellipsis;
-  display: inline-block;
-  max-width: 100%; }
-
 .clearfix {
   display: block;
   _height: 1px;
@@ -261,20 +230,6 @@ body .touch-device .visible-touch, body .visible {
   .clearfix:after {
     clear: both; }
 
-.sticky {
-  display: block;
-  _height: 1px;
-  zoom: 1; }
-  .sticky:before, .sticky:after {
-    content: '\0020';
-    display: block;
-    overflow: hidden;
-    visibility: hidden;
-    width: 0;
-    height: 0; }
-  .sticky:after {
-    clear: both; }
-
 .speak {
   position: absolute !important;
   clip: rect(1px, 1px, 1px, 1px);
@@ -286,120 +241,6 @@ body .touch-device .visible-touch, body .visible {
   width: 1px;
   overflow: hidden;
   display: block; }
-
-html {
-  /* Orientation */
-  /* view */ }
-  html:before {
-    position: absolute !important;
-    clip: rect(1px, 1px, 1px, 1px);
-    clip: rect(1px 1px 1px 1px);
-    /* IE6, IE7 */
-    padding: 0;
-    border: 0;
-    height: 1px;
-    width: 1px;
-    overflow: hidden;
-    display: block; }
-    @media (orientation: portrait) {
-      html:before {
-        content: 'portrait';
-        font-family: 'portrait'; } }
-    @media (orientation: landscape) {
-      html:before {
-        content: 'landscape';
-        font-family: 'landscape'; } }
-  html:after {
-    position: absolute !important;
-    clip: rect(1px, 1px, 1px, 1px);
-    clip: rect(1px 1px 1px 1px);
-    /* IE6, IE7 */
-    padding: 0;
-    border: 0;
-    height: 1px;
-    width: 1px;
-    overflow: hidden;
-    display: block; }
-    @media (max-width: 767px) {
-      html:after {
-        content: 'mobile';
-        font-family: 'mobile'; } }
-    @media (min-width: 768px) {
-      html:after {
-        content: 'desktop';
-        font-family: 'desktop'; } }
-
-@media (min-width: 768px) {
-  .sticky-desktop {
-    position: -webkit-sticky;
-    position: -moz-sticky;
-    position: -ms-sticky;
-    position: -o-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 25;
-    background: #fff; }
-
-  .ellipsis-desktop {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    -o-text-overflow: ellipsis;
-    -ms-text-overflow: ellipsis;
-    display: inline-block;
-    max-width: 100%; }
-
-  .speak-desktop {
-    position: absolute !important;
-    clip: rect(1px, 1px, 1px, 1px);
-    clip: rect(1px 1px 1px 1px);
-    /* IE6, IE7 */
-    padding: 0;
-    border: 0;
-    height: 1px;
-    width: 1px;
-    overflow: hidden;
-    display: block; }
-
-  .visible-mobile, .hidden-desktop {
-    display: none !important; }
- }
-
-@media (max-width: 767px) {
-  body .sticky-mobile {
-    position: -webkit-sticky;
-    position: -moz-sticky;
-    position: -ms-sticky;
-    position: -o-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 25;
-    background: #fff; }
-
-  .ellipsis-mobile {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    -o-text-overflow: ellipsis;
-    -ms-text-overflow: ellipsis;
-    display: inline-block;
-    max-width: 100%; }
-
-  .speak-mobile {
-    position: absolute !important;
-    clip: rect(1px, 1px, 1px, 1px);
-    clip: rect(1px 1px 1px 1px);
-    /* IE6, IE7 */
-    padding: 0;
-    border: 0;
-    height: 1px;
-    width: 1px;
-    overflow: hidden;
-    display: block; }
-
-  .visible-desktop, .hidden-mobile {
-    display: none !important; }
- }
 
 #skycom-breadcrumb {
   position: relative;
@@ -414,9 +255,7 @@ html {
     margin: 0;
     padding: 8px 10px 0px 0;
     font-size: 0.812em;
-    line-height: 1.2em;
     min-height: 32px;
-    font-family: skytextregular, helvetica, arial;
     box-sizing: border-box; }
     #skycom-breadcrumb ul:before, #skycom-breadcrumb ul:after {
       content: '\0020';
@@ -435,7 +274,6 @@ html {
         -webkit-transition: width 1.5s ease-in;
         transition: width 1.5s ease-in;
         white-space: nowrap;
-        padding: 0;
         height: 15px;
         letter-spacing: 0px;
         display: inline-block;
