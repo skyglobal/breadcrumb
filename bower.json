@@ -1,7 +1,7 @@
 {
   "name": "breadcrumb",
   "version": "0.0.1",
-  "homepage": "https://github.com/damnhipster/breadcrumb",
+  "homepage": "https://github.com/skyglobal/breadcrumb",
   "authors": [
     "git.user-name <{{ git.user-email }}>"
   ],
@@ -13,8 +13,8 @@
     "!dist/**/*"
   ],
   "devDependencies": {
-    "bskyb-colours": "~0.0.8",
-    "bskyb-typography": "~0.0.3",
-    "bskyb-skycons": "~0.0.6"
+    "bskyb-colours": "~0.0.9",
+    "bskyb-typography": "~0.0.6",
+    "bskyb-skycons": "~0.0.7"
   }
 }

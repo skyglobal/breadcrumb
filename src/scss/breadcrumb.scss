@@ -1,6 +1,8 @@
 @import 'bower_components/bskyb-skycons/dist/scss/skycons';
 @import 'utility-classes';
 
+$mobile-width: 767px;
+
 #skycom-breadcrumb {
   position: relative;
   z-index: 1;
@@ -13,9 +15,7 @@
     margin: 0;
     padding: 8px 10px 0px 0;
     font-size: 0.812em;
-    line-height: 1.2em;
     min-height: 32px;
-    font-family: skytextregular, helvetica, arial;
     @include box-sizing(border-box);
 
     li {
@@ -29,7 +29,6 @@
         -o-transition: width 1s ease-in;
         transition: width 1.5s ease-in;
         white-space: nowrap;
-        padding:0;
         height: 15px;
         letter-spacing: 0px;
         display:inline-block;

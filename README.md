@@ -1,19 +1,17 @@
-[breadcrumb](http://damnhipster.github.io/breadcrumb/) 
+[Breadcrumb](http://skyglobal.github.io/breadcrumb/) 
 ========================
 
 > breadcrumb
 
-See http://damnhipster.github.io/breadcrumb/ for a demo of the Component
+See http://skyglobal.github.io/breadcrumb/ for a demo of the Component
 
 ## Usage
+
+Please take a look at the demo to see how your Breadcrumb should be marked-up.
 
 ### As CSS
 
 http://web-toolkit.global.sky.com/components/breadcrumb/0.0.1/css/breadcrumb.css
-
-### As JS
-
-http://web-toolkit.global.sky.com/components/breadcrumb/0.0.1/js/breadcrumb.js
 
 ### As a Sass Module
 
