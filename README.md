@@ -1,25 +1,33 @@
 [Breadcrumb](http://skyglobal.github.io/breadcrumb/) 
 ========================
 
-> breadcrumb
+> Please take a look at the [demo page](http://skyglobal.github.io/breadcrumb/)
 
-See http://skyglobal.github.io/breadcrumb/ for a demo of the Component
+## Quick-Start
 
-## Usage
+Include the assets in your project either as **Static Resources**
 
-Please take a look at the demo to see how your Breadcrumb should be marked-up.
+```
+<link rel="stylesheet" href="http://web-toolkit.global.sky.com/components/breadcrumb/0.0.1/css/breadcrumb.css" />
+```
 
-### As CSS
+or alternatively, **Via Bower**
 
-http://web-toolkit.global.sky.com/components/breadcrumb/0.0.1/css/breadcrumb.css
+ * Run: `bower install --save-dev bskyb-breadcrumb`
+ * Include Sass: `@import 'bower_components/bskyb-breadcrumb/src/scss/breadcrumb';`
 
-### As a Sass Module
+#### Dependencies
 
-`bower install --save-dev bskyb-breadcrumb`
+This component relies on other components and you must also include these in your project.
 
-### Locally
+ * [Skycons](https://github.com/skyglobal/skycons)
 
-`gulp serve`
+#### Developer Notes
+
+Copy the html, adding/removing links as relevant for your page :
+
+ * [Breadcrumb](demo/_includes/breadcrumb.html)
+
 
 ## Contribution
 
