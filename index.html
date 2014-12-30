@@ -6,21 +6,23 @@
 
     <link rel="stylesheet" href="css/demo.css"/>
     <link rel="stylesheet" href="css/breadcrumb.css"/>
+    <link rel="stylesheet" href="http://web-toolkit.global.sky.com/components/skycons/0.2.0/css/skycons.css"/>
 </head>
 <body>
-
-<h1>Breadcrumb
-    <small  class="demo-version text--secondary">v0.0.1
-        <a href="https://github.com/skyglobal/breadcrumb" class="text--secondary">
-            <span class="demo-icon demo-icon--github"  aria-hidden=true></span>
-            <span class="speak">Github Repo</span>
-        </a></small>
-</h1>
-<aside  id="skycom-breadcrumb" class="skycom-container">
+<div class="skycom-container">
+    <h1>Breadcrumb
+        <small  class="demo-version text--secondary">v0.0.1
+            <a href="https://github.com/skyglobal/breadcrumb" class="text--secondary">
+                <span class="demo-icon demo-icon--github"  aria-hidden=true></span>
+                <span class="speak">Github Repo</span>
+            </a></small>
+    </h1>
+</div>
+<aside class="skycom-container breadcrumb">
     <h2 class=speak>Navigational Trail</h2>
-    <ul>
-        <li class=medium><a href="#">Help & Support</a></li>
-        <li ><i class=skycon-chevron aria-hidden=true></i><a href="#">Profile & Setting</a></li>
-        <li ><i class=skycon-chevron aria-hidden=true></i><a href="#">Change your subscription</a></li>
+    <ul class="breadcrumb__list">
+        <li ><a href="#">Help & Support</a></li>
+        <li ><i class="skycon skycon--chevron skycon--active" aria-hidden=true></i><a href="#">Profile & Setting</a></li>
+        <li ><i class="skycon skycon--chevron skycon--active" aria-hidden=true></i><a href="#">Change your subscription</a></li>
     </ul>
 </aside>
