@@ -1,4 +1,6 @@
 .breadcrumb {
+  display: block;
+  /* ie8 */
   position: relative;
   z-index: 1;
   margin-bottom: 0; }
@@ -51,9 +53,7 @@
 
 .lt-ie9 .breadcrumb__list {
   line-height: 2.25em;
-  padding: 0 10px 0; }
-  .lt-ie9 .breadcrumb__list .skycon {
-    margin-top: 8px; }
+  padding-top: 0; }
 
 .speak {
   position: absolute !important;
