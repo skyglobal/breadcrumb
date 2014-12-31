@@ -1,12 +1,12 @@
 {
     "name": "bskyb-breadcrumb",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "description": "Breadcrumb that matches masthead styling",
     "main": "index.js",
     "devDependencies": {
         "browser-sync": "^1.5.9",
         "gulp": "^3.8.10",
-        "gulp-component-helper": "^0.3.5",
+        "gulp-component-helper": "~0.3.3",
         "run-sequence": "^1.0.1"
     },
     "repository": {
