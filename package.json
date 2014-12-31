@@ -1,6 +1,6 @@
 {
     "name": "sky-breadcrumb",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "description": "Breadcrumb that matches masthead styling",
     "main": "index.js",
     "devDependencies": {
