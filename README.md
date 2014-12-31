@@ -8,7 +8,7 @@
 Include the assets in your project either as **Static Resources**
 
 ```
-<link rel="stylesheet" href="http://web-toolkit.global.sky.com/components/breadcrumb/0.1.2/css/breadcrumb.css" />
+<link rel="stylesheet" href="http://web-toolkit.global.sky.com/components/breadcrumb/0.1.3/css/breadcrumb.css" />
 ```
 
 or alternatively, **Via Bower**
