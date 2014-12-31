@@ -1,5 +1,5 @@
 {
-    "name": "breadcrumb",
+    "name": "bskyb-breadcrumb",
     "version": "0.1.0",
     "description": "Breadcrumb that matches masthead styling",
     "main": "index.js",
