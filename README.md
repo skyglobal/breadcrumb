@@ -33,7 +33,7 @@ Copy the html, adding/removing links as relevant for your page :
 
 Components depends on collaboration between developers. Contributions of any size are actively encouraged.
 
-[Read More >](CONTRIBUTING.md)
+To see how to build this component locally, read the [contribution guidelines](CONTRIBUTING.md).
 
 ## Browser Support
 

@@ -2,12 +2,10 @@
     "name": "breadcrumb",
     "version": "0.1.0",
     "description": "Breadcrumb that matches masthead styling",
-    "main": "index.js",
+    "main": "dist/styles/breadcrumb.css",
     "devDependencies": {
-        "browser-sync": "^1.5.9",
         "gulp": "^3.8.10",
-        "gulp-component-helper": "~0.3.3",
-        "run-sequence": "^1.0.1"
+        "component-helper": "~0.8.9"
     },
     "repository": {
         "type": "git",
